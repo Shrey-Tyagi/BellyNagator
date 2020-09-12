@@ -1,77 +1,53 @@
-# Team HackOverflow
-Prototype for the U-Fit portal 
+# Belly Terminator!
 
-Ngrok URL- http://efd552a03c7a.ngrok.io 
- 
-With a mission to make a product that monitor daily calorie intake and achieve fitness goals through incentivization and gamification we introduce you with the smartest health analyst U-Fit. With U-Fit a user can scan the nutrition value of eatable or can choose a meal from predefined list. Then our system will store the value and give
-recommendation to achieve the user goal.
+Prototype for the BellyNator portal 
+## Inspiration
+We all love to eat awesome food! So why not track our intake and crush our health goals. Recent times have made my belly grow so I thought of managing my health goals and love for food better with BellyNator.
 
-# Features!
-  - Scan/Enter Food item and Log Calorie.
-  - Burn Extra Calorie with recommendations.
-  - Reach your fitness goal by knowing the recommended Calorie.
+## What it does
+To monitor daily calorie intake and achieve fitness goals I introduce you with the smartest health analyst BellyNator. With BellyNator a user can scan the nutrition value of food or can choose a meal from a predefined list. System will store the value and give recommendations to achieve the user's goal. If the calorie intake goes beyond the daily goal exercise recommendation would be shown to the user.
 
-
-In the real app we can also developed features(Not in Scope of Hackathon) like:
-  - Get Incentive on reaching goal.
-  - Use coins in store to buy products. 
-  - Real AI powered recommendation.
-  - Fitness Instructor Portal.
-
-### Tech
-
-U-FIT uses a number of teach framwork to work properly:
+## How I built it
+A number of frameworks where used:
 
 * [node.js] - evented I/O for the backend
 * [Express] - fast node.js network app framework 
 * [Postgres] - Database
 * [React] - for frontend Purpose
 
-And of course U-Fit itself is build remotely with the help of version control **GitHub**.
+And of course **GitHub**
 
-### API
+API
 - FoodData Central Api- for calorie Value.
 - Clarifai- Detection of Image
 - Elephant SQL - Postgres Database
 
-### Timelime
+## Challenges I ran into
+I wanted to integrate the OCR to scan labels and display the calorie thereby enabling the users to decide better. But turns out I now get to submit my project in another category.(Half baked)
 
-**Before 3 P.M Friday.**
-- Update Readme Setup project Structure [x]
-- Intro Pitch. [x]
+## Accomplishments that I'm proud of
+To be able to submit a fullstack project.
 
-**Before 8 P.M Friday.**
-- Configure login Signup and server files. [x]
-- Work update to panel. [x]
+## What's next for BellyNator
+OCR and a mobile app.
 
-**Before 11 P.M. Friday**
-- Start working on UI [x]
-- Server complete with database settings [x]
 
-**Before 9 A.M Saturday**.
-- Work update to panel[x]
-- UI complete and testing start.[x]
 
-**12 A.M. Saturday**
-- work complete[x] 
-- Pitch to panel [x]
 
-### Structure
-On root, server for backend and client for frontend. Tree will be updated afterwards.
+### Features!
+  - Signup and login to keep track of your health.
+  - Enter Food item and Log Calorie.
+  - Burn Extra Calorie with recommendations.
+  - Reach your fitness goal by knowing the recommended Calorie.
 
 ### Installation
 Install the dependencies and devDependencies and start the server.
 
 ```sh
     cd server
-    # Install dependencies for server and client.
     npm run fullStackInstall
-    
-	# Start Dev server on client and server.
-	npm run fullStack
+    npm run fullStack
 ```
-
 
 ### License
 MIT
-**Free Software, Hell Yeah!**
