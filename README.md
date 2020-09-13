@@ -1,6 +1,7 @@
 # Belly Terminator!
 
 Prototype for the BellyNator portal 
+This is an official submission to Bon Hacketit (https://devpost.com/software/bellynator)
 ## Inspiration
 We all love to eat awesome food! So why not track our intake and crush our health goals. Recent times have made my belly grow so I thought of managing my health goals and love for food better with BellyNator.
 
